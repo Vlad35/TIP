@@ -14,6 +14,9 @@ import java.util.Scanner;
 
 public class Main {
     private static long SquareCount(long n,long m) {
+        if(n == m) {
+            return 1;
+        }
         long res = 0;
         n -= m;
         res ++;
